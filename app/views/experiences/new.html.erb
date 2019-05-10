@@ -1,5 +1,26 @@
-<h1>New Experience</h1>
+<body class="text-center">
+    <div class="content">
+        <div class="row">
+            <div class="col-md-12 col-lg-12">
+                <%= render 'layouts/header' %>
+            </div>
+        </div>
 
-<%= render 'form', experience: @experience %>
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <div class="container">
+                        <h1 class="text-center text-dark rounded fit-c m-auto">New Experience</h1>
+                        <%= render 'form', experience: @experience %>
+                        <%= link_to 'Back', experiences_path %>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="row footer">
+        <div class="col-md-12 col-lg-12">
+            <%= render 'layouts/footer' %>
+        </div>
+    </div>
+</body>
 
-<%= link_to 'Back', experiences_path %>
+

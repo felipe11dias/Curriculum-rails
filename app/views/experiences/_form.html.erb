@@ -1,3 +1,4 @@
+<div class="m-auto fit-c">
 <%= form_with(model: experience, local: true) do |form| %>
   <% if experience.errors.any? %>
     <div id="error_explanation">
@@ -11,22 +12,23 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :company %>
-    <%= form.text_field :company %>
+  <div class="field form-group">
+    <%= form.label :company, class:"bg-dark text-light rounded fit-c" %>
+    <%= form.text_field :company, class:"form-control" %>
   </div>
 
-  <div class="field">
-    <%= form.label :description %>
-    <%= form.text_area :description %>
+  <div class="field form-group ">
+    <%= form.label :office, class:"bg-dark text-light rounded fit-c" %>
+    <%= form.text_field :office, class:"form-control" %>
   </div>
 
-  <div class="field">
-    <%= form.label :office %>
-    <%= form.text_field :office %>
+  <div class="field form-group">
+    <%= form.label :description, class:"bg-dark text-light rounded fit-c" %>
+    <%= form.text_area :description, class:"form-control dark-border" %>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit%>
   </div>
 <% end %>
+</div>

@@ -1,5 +1,5 @@
 class ExperiencesController < ApplicationController
-  before_action :authenticate_user!
+  before_action :authenticate_user!, only: [:create, :edit, :update, :destroy]
   before_action :set_experience, only: [:show, :edit, :update, :destroy]
 
   # GET /experiences
@@ -70,6 +70,6 @@ class ExperiencesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def experience_params
-      params.require(:experience).permit(:company, :description, :office)
+      params.require(:experience).permit(:company, :description, :office, :created_at, :updated_at)
     end
 end

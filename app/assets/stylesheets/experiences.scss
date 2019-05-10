@@ -1,3 +1,29 @@
 // Place all the styles related to the experiences controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+// Melhorando form
+form label {
+    float: left;
+}
+
+h1 {
+    background-color: #a34331;
+}
+
+textarea:focus { 
+    outline: none !important;
+    border-color: #333 !important;
+    box-shadow: 0 0 10px #333 !important;
+}
+
+input:focus { 
+    outline: none !important;
+    border-color: #333 !important;
+    box-shadow: 0 0 10px #333 !important;
+}
+
+// Util
+.m-auto {
+    margin: 0 auto;
+}

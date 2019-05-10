@@ -1,21 +1,6 @@
 // Place all the styles related to the layouts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.col {
-    padding: 0 !important;
-}
-
-.row {
-    margin: 0 !important;
-}
-
-.content {
-    min-height: calc(100vh - 68px);
-  }
-
-.footer {
-    height: 50px;
-}
 
 body {
     height: auto;
@@ -29,14 +14,8 @@ header.navbar {
     padding: 0 50px;
 }
 
-.footer {
-    position: relative;
-    width: 100%;
-    bottom: 0px;
-}
-
+// Footer
 footer {
-    margin-top: 15px;
     width: 100%;
     bottom: 0px;
     padding: 25px 0;
@@ -44,14 +23,37 @@ footer {
 }
 
 footer p{
+    text-align: center !important;
     color: rgba(255,255,255,.5) !important;
 }
 
-p {
-    text-align: center;
-    margin-bottom: 0px !important;
+.footer {
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+}
+//align-footer
+.content {
+    min-height: calc(100vh - 68px);
+    padding-bottom: 15px;
+  }
+
+.footer {
+    height: 50px;
 }
 
+// tirando config patrão do bootstrap(não ajudaram)
+.col,
+.col-md-12,
+.col-lg-12 {
+    padding: 0 !important;
+}
+
+.row {
+    margin: 0 !important;
+}
+
+// header configs components
 li {
     height: auto !important;
     width: fit-content !important;
@@ -78,5 +80,15 @@ li#login, li#logout{
 
 li#login a {
     color: white;
+}
+
+// util
+.fit-c {
+    width: fit-content !important;
+    padding: 5px;
+}
+
+.m-top {
+    margin-top: 5px;
 }
 

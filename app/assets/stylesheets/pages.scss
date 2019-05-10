@@ -1,7 +1,5 @@
-
-
-
-
+// homePage configs
+//card about component
 #about {
     margin-top: 20px;
     width: 100%;
@@ -11,11 +9,20 @@
     margin-bottom: 0;
 }
 
+.card h2 {
+    text-align: center;
+}
+
 .card-body {
     font-family: 'Courier New', Courier, monospace !important;
-    background-color: #c9cfd4;
+    background-color: #a34331;
 }
 
 .card-body p {
     margin-bottom: 0% !important;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 0px !important;
 }
