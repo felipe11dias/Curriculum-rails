@@ -1,5 +1,5 @@
 <body class="text-center">
-    <div class="content">
+    <div class="content ">
         <div class="row">
             <div class="col-md-12 col-lg-12">
                 <%= render 'layouts/header' %>
@@ -8,10 +8,10 @@
 
             <div class="row">
                 <div class="col-md-12 col-lg-12">
-                    <div class="container">
+                    <div class="container fit-c bg-red-custom b-r">
                         <h1 class="text-center text-dark rounded fit-c m-auto">New Experience</h1>
                         <%= render 'form', experience: @experience %>
-                        <%= link_to 'Back', experiences_path %>
+                        <%= link_to 'Back', experiences_path , :class => "btn text-white" %>
                     </div>
                 </div>
             </div>

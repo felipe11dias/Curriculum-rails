@@ -19,12 +19,13 @@ footer {
     width: 100%;
     bottom: 0px;
     padding: 25px 0;
-    background-color: #0A0A0A!important;
+    background-color: #0A0A0A !important;
 }
 
 footer p{
     text-align: center !important;
     color: rgba(255,255,255,.5) !important;
+    margin-bottom: 0px !important;
 }
 
 .footer {
@@ -80,33 +81,6 @@ li#login, li#logout{
 
 li#login a {
     color: white;
-}
-
-
-// Carousel config
-
-.carousel-msg {
-    background-color: #a34331;
-    max-height: 160px;
-}
-
-.carousel-msg p {
-    font-size: 1.1rem;
-    padding: 0 300px;
-    text-align: center;
-}
-
-// Profile config
-.team-developer {
-    max-width: 100%;
-    max-height: 100%;
-    background-color: #a34331;
-    width: 350px;
-    height: 100%;
-    padding: 50px 0;
-}
-.team-developer img {
-    border-radius: 5px;
 }
 
 

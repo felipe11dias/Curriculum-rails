@@ -3,6 +3,8 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 // Melhorando form
+
+
 form label {
     float: left;
 }
@@ -19,7 +21,13 @@ input:focus {
     box-shadow: 0 0 10px #333 !important;
 }
 
+
 // Util
 .m-auto {
     margin: 0 auto;
+
+}
+
+.bg-red-custom {
+    background-color: #a34331 !important;
 }
