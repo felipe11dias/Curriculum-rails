@@ -7,23 +7,63 @@
     <body>
     <div class="content">
         <div class="row">
-            <div class="col">
+            <div class="col-md-12 col-lg-12">
                 <%= render 'layouts/header' %>
             </div>
         </div>
-
-        <div class="row">
-            <div class="col-md-12 col-lg-12">
-                <div class="container">
-                    <div class="card bg-dark text-light" id="about">
-                        <h2> Bem vindo </h2>
-                        <div class="card-body">
-                            <p> Conheça nosso site, fazemos a criação de curricúlos ficarem bem dinâmicas e mais divertidas, adicione experi-
-                            encias com nome da empresa, cargo e descrição de onde você trabalhou, adicione contatos para ajudar a para não
-                            esquecer com quem você já contactou, tendo guardado o nome, email e telefone de seus contactados.</p>
+        <div class="col-md-12 col-lg-12">
+            <div id="carouselHomePage" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel-msg text-center w-100 p-200">
+                            <h1>Welcome</h1>
+                            <p>Get to know our website, we make the creation of curriculos very dynamic and more fun, add experience with name of the company, position and description of where you worked, add contacts to help not to forget who you've contacted, and keep the name, email and phone number of your contacts.</p>
                         </div>
                     </div>
-
+                    <div class="carousel-item">
+                        <div class="carousel-msg text-center w-100 p-200">
+                            <h1>Create your account</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-msg text-center w-100 p-200">
+                            <h1>Thank you for accessing this site.</h1>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselHomePage" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselHomePage" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row mt-5">
+                    <div class="col-md-4 col-lg-4">
+                        <div class="team-developer text-center m-auto">
+                            <%= image_tag 'profile.jpg' %>
+                            <h3>Developer leader</h3>
+                            <p class="text-center">Felipe Dias web developer with experience in ruby, java and java script.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4">
+                        <div class="team-developer text-center m-auto">
+                            <%= image_tag 'profile.jpg' %>
+                            <h3>Developer leader</h3>
+                            <p class="text-center">Professional web developer with experience in ruby, java and java script.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4">
+                        <div class="team-developer text-center m-auto">
+                            <%= image_tag 'profile.jpg' %>
+                            <h3>Developer leader</h3>
+                            <p class="text-center">Professional web developer with experience in ruby, java and java script.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

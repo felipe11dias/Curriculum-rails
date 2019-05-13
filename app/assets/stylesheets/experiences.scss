@@ -7,17 +7,13 @@ form label {
     float: left;
 }
 
-h1 {
-    background-color: #a34331;
-}
-
-textarea:focus { 
+textarea:focus {
     outline: none !important;
     border-color: #333 !important;
     box-shadow: 0 0 10px #333 !important;
 }
 
-input:focus { 
+input:focus {
     outline: none !important;
     border-color: #333 !important;
     box-shadow: 0 0 10px #333 !important;

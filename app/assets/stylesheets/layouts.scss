@@ -82,6 +82,34 @@ li#login a {
     color: white;
 }
 
+
+// Carousel config
+
+.carousel-msg {
+    background-color: #a34331;
+    max-height: 160px;
+}
+
+.carousel-msg p {
+    font-size: 1.1rem;
+    padding: 0 300px;
+    text-align: center;
+}
+
+// Profile config
+.team-developer {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #a34331;
+    width: 350px;
+    height: 100%;
+    padding: 50px 0;
+}
+.team-developer img {
+    border-radius: 5px;
+}
+
+
 // util
 .fit-c {
     width: fit-content !important;
@@ -92,3 +120,6 @@ li#login a {
     margin-top: 5px;
 }
 
+.p-200{
+    padding: 200px 0 ;
+}
